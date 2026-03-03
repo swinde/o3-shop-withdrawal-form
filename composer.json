@@ -1,0 +1,36 @@
+{
+  "name": "swinde/o3-shop-withdrawal-form",
+  "description": "das etwas intelligentere Widerrufsformular für O3-Shop",
+  "type": "oxideshop-module",
+  "homepage": "",
+  "license": [
+    "GPL-3.0-only"
+  ],
+  "authors": [
+    {
+      "name": "Marat Bedoev",
+      "email": "hello@mb-dev.pro"
+    },
+    {
+      "name": "Steffen Winde",
+      "email": ""
+    }
+  ],
+  "extra": {
+    "name": "swinde/withdrawal-form",
+    "oxideshop": {
+      "target-directory": "swinde/withdrawal-form"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "o3-shop/shop-ce": "^1.2 || dev-dev-b-1.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "SWinde\\WithdrawalForm\\": "../../../source/modules/swinde/withdrawal-form"
+    }
+  }
+}
+
+
