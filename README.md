@@ -21,11 +21,11 @@
 ### alternativ: ohne Modul als dependency zu hinterlegen
 in der composer.json des Shops folgen
 folgende Befehle im `source/modules/` Ordner ausführen:
-- `mkdir vt && cd vt`
+- `mkdir swinde && cd swinde`
 - `git clone https://github.com/swinde/o3-shop-withdrawal-form.git WithdrawalForm`
 - `cd ../../../`
 - `composer dump-autoload -o`
-- `vendor/bin/oe-console oe:module:install-configuration source/modules/vt/WithdrawalForm/`
+- `vendor/bin/oe-console oe:module:install-configuration source/modules/swinde/withdrawal-form/`
   
 ## Konfiguration
 - Modul aktivieren
