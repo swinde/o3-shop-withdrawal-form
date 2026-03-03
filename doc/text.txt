@@ -1,0 +1,5 @@
+,
+    "oxid-module-withdrawal-form:0.5.0.x-dev": {
+      "type": "vcs",
+      "url": "https://github.com/swinde/oxid-module-withdrawal-form.git"
+    }
