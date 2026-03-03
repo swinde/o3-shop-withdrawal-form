@@ -1,6 +1,7 @@
 {
   "name": "swinde/o3-shop-withdrawal-form",
   "description": "das etwas intelligentere Widerrufsformular für O3-Shop",
+  "version": "0.5.0",
   "type": "oxideshop-module",
   "homepage": "",
   "license": [
@@ -13,7 +14,7 @@
     },
     {
       "name": "Steffen Winde",
-      "email": ""
+      "email": "inserv@winde-ganzig.de"
     }
   ],
   "extra": {
